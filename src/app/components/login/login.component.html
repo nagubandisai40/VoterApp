@@ -1,0 +1,36 @@
+<ngx-spinner>Loading...</ngx-spinner>
+
+<section style="margin-top: 50px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-12 mx-auto col-sm-8 col-md-6 col-sm-offset-2
+              col-md-offset-3">
+              <form role="form" style="background-color: azure;" class="p-5">
+                  <h2>Sign In</h2>
+                  <hr class="colorgraph">
+                  <div class="form-group">
+                      <input type="email" name="email" id="email" [(ngModel)]="email"
+                          class="form-control input-lg" placeholder="Email Address" tabindex="4">
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <input type="password" name="password" id="password" [(ngModel)]="password"
+                                  class="form-control input-lg"
+                                  placeholder="Password" tabindex="5">
+                          </div>
+                      </div>
+                  </div>
+                  <hr class="colorgraph">
+                  <div class="row">
+                      <div class="mx-auto col-xs-12 col-md-6"><a (click)="login()" class="btn
+                              btn-success btn-block btn-lg">Sign In</a></div>
+                  </div>
+                  <div class="row mt-2">
+                    <p class="mx-auto">Don't have an account? <a routerLink="/register">Register here</a></p>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>    
+</section>

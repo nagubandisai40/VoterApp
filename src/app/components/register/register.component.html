@@ -1,0 +1,66 @@
+<ngx-spinner>Loading...</ngx-spinner>
+
+<section style="margin-top: 50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 mx-auto col-sm-8 col-md-6 col-sm-offset-2
+                col-md-offset-3">
+                <form role="form" style="background-color: azure;" class="p-5">
+                    <h2>Welcome to Voting Application</h2>
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" [(ngModel)]="firstName" name="first_name" id="first_name"
+                                    class="form-control input-lg" placeholder="First Name" tabindex="1">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" [(ngModel)]="lastName" name="last_name" id="last_name"
+                                    class="form-control input-lg" placeholder="Last Name" tabindex="2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="user name" [(ngModel)]="userName" id="user_name"
+                            class="form-control input-lg" placeholder="User Name"
+                            tabindex="3">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" [(ngModel)]="email"
+                            class="form-control input-lg" placeholder="Email Address" tabindex="4">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password" id="password" [(ngModel)]="password"
+                                    class="form-control input-lg"
+                                    placeholder="Password" tabindex="5">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password_confirmation"
+                                    id="password_confirmation" [(ngModel)]="repeat_password" class="form-control
+                                    input-lg" placeholder="Confirm Password"
+                                    tabindex="6">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" *ngIf="showE">
+                        <p class="text-danger mx-auto">{{errorMessage}}</p>
+                    </div>
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6"><input type="submit"
+                                value="Register" (click)="register()" class="btn btn-primary btn-block
+                                btn-lg" tabindex="7"></div>
+                        <div class="col-xs-12 col-md-6"><a routerLink="/login" class="btn
+                                btn-success btn-block btn-lg">Sign In</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+</section>

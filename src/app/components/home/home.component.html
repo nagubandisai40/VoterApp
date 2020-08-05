@@ -1,0 +1,172 @@
+<ngx-spinner>Loading...</ngx-spinner>
+
+<body>
+    <!-- ======= Header ======= -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex justify-content-center align-items-center">
+        <div class="container position-relative" data-aos="zoom-in"
+            data-aos-delay="100">
+            <h1>Voting Today,<br>Leading Tomorrow</h1>
+            <h2>Lets vote for a Right Hacker</h2>
+            <a  class="btn-get-started">Login</a>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+     
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts section-bg">
+            <div class="container">
+                <div class="row counters">
+                    <div class="col-lg-6 col-6 text-center">
+                        <span data-toggle="counter-up">{{totalUsers}}</span>
+                        <p>Hackers</p>
+                    </div>
+                    <div class="col-lg-6 col-6 text-center">
+                        <span data-toggle="counter-up">{{totalVotes}}</span>
+                        <p>Total Votes</p>
+                    </div>
+                    <!-- <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">42</span>
+                        <p>Events</p>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">15</span>
+                        <p>Trainers</p>
+                    </div> -->
+                </div>
+            </div>
+        </section><!-- End Counts Section -->
+
+        <!-- ======= Why Us Section ======= -->
+        <!-- <section id="why-us" class="why-us">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <h3>Why Choose Mentor?</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                                Duis aute irure dolor in reprehenderit
+                                Asperiores dolores sed et. Tenetur quia eos.
+                                Autem tempore quibusdam vel necessitatibus optio
+                                ad corporis.
+                            </p>
+                            <div class="text-center">
+                                <a href="about.html" class="more-btn">Learn More
+                                    <i class="bx bx-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-stretch"
+                        data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-boxes d-flex flex-column
+                            justify-content-center">
+                            <div class="row">
+                                <div class="col-xl-4 d-flex
+                                    align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-receipt"></i>
+                                        <h4>Corporis voluptates sit</h4>
+                                        <p>Consequuntur sunt aut quasi enim
+                                            aliquam quae harum pariatur laboris
+                                            nisi ut aliquip</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex
+                                    align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-cube-alt"></i>
+                                        <h4>Ullamco laboris ladore pan</h4>
+                                        <p>Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia
+                                            deserunt</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex
+                                    align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-images"></i>
+                                        <h4>Labore consequatur</h4>
+                                        <p>Aut suscipit aut cum nemo deleniti
+                                            aut omnis. Doloribus ut maiores
+                                            omnis facere</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Why Us Section -->
+
+        <!-- ======= Features Section ======= -->
+      
+        <!-- ======= Popular Courses Section ======= -->
+        <section id="popular-courses" class="courses">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <!-- <h2>Courses</h2> -->
+                    <p>Top Voted Hackers</p>
+                </div>
+
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" *ngFor="let hacker of hackers">
+                        <div class="course-item">
+                            <img width="100%" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQDxAVEBUVFRUVFRUVFQ8VEBAPFRYWFhUVFxUYHSggGBolHRUVITEiJSktLi4uFx8zODMtNygtLisBCgoKDQ0ODw0NDy0ZFRkrKy0rKzctNysrKysrKy0tLTcrKysrKystKzcrKysrKy0rKysrLTcrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQQDBQYCBwj/xABDEAABAwIDAwgFCAoCAwAAAAABAAIDBBEFEiExUWEGEyJBcYGRsUJSYqHBBxQjMpKy0fAzU2Nyc4KiwuHxQ8MVVOL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APiCKFKAiIghFKICIiAiIgIF0FBye6IkqCW31EY0cR7R6uzb2LJJlZpG0MHAa952lBoW0zzsY7wK8PjLfrAjtFlt3TlBLfbqg0yLYT0bXax2B3bAfwKoEEGxFiNCDtB3IIREQEREBEUICIiAoUqEBERAREQFClQgIiIJREQEUogIiICIiCUREBdJyZwxrR86mGg/RNPpOHpkbh1cexUcFwnnfpJejED3yuHojhvK6Ayl54CwAGwNGwAdigVMxeSSVrqli2Mmgt+Kq5DrdBqZWLGs9VKBcBVWsceJ3BUWInu6iO9Z62jE0Zc23PRi7gP+WIbTxc3y7FSa1wPV4/gthSSlpDm6PBBBB2HiDt7EHPItzi+FAN56K1jq9g2xE9Y9nyWmQERQgIiICIiCEUqEBERAREQEREBQpRBCKUQerKLKUQQiIgWU2REBW8LoHTytjGl9XH1WDVx8PfZVV1/J2l5mm50jp1Byt3iFp279XfdCDJXTNu2OMZWNs1o6gB+bq3TwZW5j+fzZaVl3VAYOt1veuixizAGjqA9+xQa9vTcTu/0q+Iyhl2jU7ON1fw9uRheRckgNG88FQqHCK5+vIdh9XgPxQaz5oG6zGx25PTcOJ6vNZqWjlnOSJhDSdgBvbjv7StzgXJ19U+7yL7Tw3adyp0GIVNNX827R7H5QwaMf1GMg7cwtYnW5b1FBt8P5BTuGYloO5ztT9kFTinIySnZzjje2pIubW89F9Vo4muyub9VwDh2EXW6rMLbJTODhtCo/PVEGuFo3suDYguj/AER2ggm58Os71q+UuCCnLZI9Y33G/I8ejfduWPlHS8zVvjGmV5twG1biikdUUU8TukWszN7Y7PFuNmvHeoOPUL3ZRZaHlF6sosoPKL1ZLIPKKbJZBCKbKEEIpUICIiAilEBFCIPSKFKAoUoghSiILOG0bp5mQt2vcG9g6z3C57l2M9U018ULdGNtG0dQaBYKtyGoskctY8bAY4+0/Xd4ad5Wqw+e+IRO/ajzQbXAKbPiDidjC9xPVpoPfZbWraZXnTaf6QsWBMyGokPpPDB7yfgtkyPKLk6gWB3m2ig1WM1TYmBg22twA6x23VPB8NmnzPawvLW36gTuaCTYu1v2DiFhqnDO4yHQO14u4Dh71v8AA8bjiZYWHD436yitThNdU0cxlIzAGzpW2zxO6hJHocm9jhs+qQbFWhicVficVSYLNc6I5Mx0kFrOu3brbtssWPVrap9yxruJAJ8VseRGHiSuhbbQOzH+UXHvsiPqGKVXzWB0xBDWgusBcgDWzR8FpaLljUS0/PxwF4s7oFla+U2vYHJEY2k20u/rFyFY5X8rhRzNFRHljN2seecLCWEggljDldpe1joRxtYxHl3R09C+XRznNHNRgtPPucOiWuHo7zoRbUA6Kj4VymxIVdZJOI+azEXab3Dm6G46jwV/ki8/TE2AET3Enqs13wutJPckud9Z5Lj2k3Pmtk13MUbnbHz9Buy/N+key1x/OFBoBsRSoWgUKUQQoUoghQpRBCKVCghERARSiCEREBERAUqEQSiIgLNRUrppGxMF3PcGjv6+wbVhXc/J3hVg6seN7Iu303fDxQbbHY2U1I2CPYxtu09ZPEm5718/wqS1XCT+uj+8F1/LGouLfm64alfaVjtz2nwcFB9IEVmho65HE+63kvWKTZI8wuDoR+8f9rK+zni28333t+fBaWtrGzyANPRFyR1X2fFBzeMvILAb2Dru4u2/irLKUEZmG44Iwh7nc4LhxJI3XPUrMvJqqibz1ITJG71dR3jqPb4oqzhkYf0WDM4besjtX0L5OMPtVucR9Rg8XH/5Xy7CIa+ld8/FO/I1wY8vBa15cbZLbTfgCvtPJ+obDhsuJEthEzecbmuS25ytZYDUkjKANTdVHWY/ydhqWESWLXEFzS2N7H22Ete0i/EWOgX5kxdobVzguu2OWSNmywjY8tY1oGgFgBYaL69yn+VGGKnMcF3VJbbKQQyBxGpeTpceqOGxfFYI3SOsLuJOm9xO0lBbw+jM0l3dFrek92wMYOPYFWxeu56S40Y0ZYxuYOu3UTt93UrWK1Ijj+axm+t5nD0n+p2Dr7BuK1CQQoUoqIRSoQQilEEKFKhAUKUQQiIoCgqVBQEREBFKIIRFYp6KWTVjHEb7Wb9o6IMCLY/+KDReWZjT6rAZHd9rN968uihbsD5P3iGg8LNv5oIwfCZaqVsUYtmOryDkY0fWcTw/wvpzZI4Wtii0ZG3KO7rPE6nvXGR4rkmD2dFrmhrR1MA2NA6grLsTvfXaoMXKabNf86LkSbFbyvmzLSSDUqj67yFj+cVljsjHOnd1NaO8uHcFznKCNsdbXWA6L3gEC31yLd/St3LpvkdcCyaQ7XmKIfygud95q43HqrnJal36xzn94cSFBXposzh7QHiNFvH4jPg74n3D2S6mO+paLXcB1KnyepjK1rx1Gx4FbTk+757ygFmmURgxx2ALI+bblMjr+iCXntLd6o7Hk/hWHYnAHU801PGXh8lOARCZG6hzA4WYQ7XoHKdbhclysomYO/5vFXSVTh0oYHl3NUT3X+ney+QyAE5RlGpzHYL9z8oPK+PC4RTUYaJy0BgABbTxDQSEbL6dEHaddgXw4mSZ5JLpHvJLnEkve46lziUGOOJ0jsrbuLj16lzjqSSr9XOylaYojmmOj3j/AIR1tB9by7dnqueaNojZbnni73a3ijcOiG7nEG991j1haFAAREVEIiICIiCEREEIpRBCKVCCEREEKFKKCFKIgIilB1HPUlP+ggD3evLaRwO8A9EdwVKrxCSU3e4nyVQOuvQCDyV4LVmyrzZBXMltDqFLZz19xWV0d1WdERs1G5BldLdVJdqytZcXGvmE5tB9O+TV/M0sR2Zn1Et+DGtb/wBblwNPUtsC8F125dNt9AT4Bd9gtOY8La/1KKqeO2Rszh99q+ZUcoBAO/3bEF91ZUUb3MjdYOFxfUOYbgO7RYjtBXT8muWMeG0rm0dLlqJBZ9RI5riP3GNaLAdQ8brlMStmGbVwdJvPQLrsAvxLz3hQ2KVxF2ho9rdvttQWo4p6qcmUvc95zuc++Z1/SJ69nu4Lb0sTWPjjiIJdIwPeduQuFw09Wn560lrukMhIbE0Fx0zOyt0B4aXtxC1+HTXeyw9Nv3goPXL5z3YlVPc0gc+9rd2RhyNF+xoXPrtuVDwK+pGz6eXsPTctQcNhl0aebdvH1e9v4K6NAisVtFJCbPHY4atd2FV1QRQpQEKIghERAREQFClQghEUICIigKURUEREF0OsVYsqTj07LYMF2XUGO6FY3O1XtyCAVDNq8kr3DtQeDCL6aEm3A9q9Hbdw6zqO0qagWd3rJUDS/rDwcg+pVlPzWAuuOk6nhZx6bo2ke93ivj0MQbIS6+VmpHWdwX235QPocJij2F8kLewNa5/m0L4vNcuka7rb36ajyQdPjeDmmbHMXNcZoy+IgaMD3ZtSQLuAc0dduorTRMP1WjUnVx/zt716w+se9jc/SsLNvsGUBo77ADwXmqkOa19OGxQXZLFnNRnQ6vd6522vu8yow6zXXts8dNVgoH9PKVlYSH2QbDlXJbEalttsr3Dsccw9xC1jtoV/lcw/ORL68NO7vMMd/Ja18ul0FyJ+YFknTadodr3g7QeK0mJ0Bhdpqw/VPX2Hj5+W/wANizMLz1EeBWTEoOdpnAC5AD29xubd2ZBx6KApWhKhEQEUKUBFCIChSoQQiIoCIiCUUIglFCILVOwukPAFX4R0CmHxayH2VEf1CoKLz0lZzaKnI7pLPE66omUL1EV6lGixtNkGao11VmFuZobxHnZVQ64WwwhmaaNu+Rg8XAIPp/ywOAp6WLe5zvssA/uXySsYBPGepwsfJfUflmkvPTR7mSH7TmD+xfMcUHThPEjyQZMHeIGO5xgla9sjWakGOUgDNxtbZwWMsvZepR9GfZmd783+EifdwUEPBZIFclF35l4xODY4bgkDszQfFBveUcGaOneP/Wi/ouz+1clWvsLLtarpUlM72JI/5mSvd5SNXGY7Fax3oN9goLqd7fZv4KKKsDTGN7hcezst4X8Vk5LAGN2Y6Bp8lz0dSTUgbjb3oKFbDzcr4/Ue5vcCQFiWy5TstVycS132mtPnday60JUJdLoCKEQSoREBQiKAiIgIiICKEQSihEG6waXNcewfdqsYNmlVsDdaW3sv+6V6lfYFBTe7VWKcqq0XKsRaILd1jcF6YV6cEGKN2q33JWPPWU7d80Y/qC5yQ2K635NW58SphttJf7LXFB0fyuSE4lwbDGOGpe7+5cFjI6cXafguy+Up+fE6j2eab4RM+JXHYnrzJ9ojyUCY/Ryfxj5KpTP6YVmq/Rv/AIx8iqkLdR2oOgk1H+1RhGV5bv1Cswuu1Vq05cr9xsewoOpMdqBns1D/AAkjYf8AqXM8pofo2v4rrZmXw8ndPCe4smHmQtHikeencN1igx4I7LSvdw+F1ydNJaUH2viunodKR44HyI+K5OI2eL+sg3XK0fTtPrRMPhdvwWlW75Ua8w7fER4PP4rSKwERQqJRQiAiKFAREQEREBEUIJRQiCUUIgtYS60ze/7pSpdqVhozZ7fz1LNVbUGKILKvMQWR4QZGLMFWYVmDtEGCsbpddh8jLr4tENzJT/QR8VzJizsNtq6D5HpWxYtG6QhoEctyTb0CgvcrJM+I1f8AGePsnL8FzWJ/Vj4SfD/C2ElZztRJL+ske/7bi74rX43oGD9p8FB4qf0bv4r1gh2K3lzRyDc+/i0H4qhCepBtaZ2llNbHmjI4FV6cq5e4sg6tszXYdpscylN/2xLyW9oDXrV22t9g6KjhjiyFsNybSySH1emIw0AcMjjf2yrznWk7h5JRRniyU7gOvXuP+iuM9LvXZYlKOZeRsvlHdp53XGHaqN/yhN4KY8JB9z8Volvca1pKZ24yA94ZbyWiQERQglQiICIoQSihSgIihAREQEREBERBMRs4dqz1B1uiIMkTVEilEEMXtzlCIL2GOWelDYJ+dc0v0cAActnOa5oN7HZmvZEUEUr7EKOUPofvIiDPhzc3Ot328cg/Bae2UkIiC3TOV0SIiC3RHpKxVT5DI/1QSO3qHjZSiDUYg61Oxu/4f7XNu2oio31drQRndLbxY78FokRAREQEREEIiICIiAiIgIiIIUoiAiIg/9k=" class="img-fluid"
+                                alt="...">
+                            <div class="course-content">
+                                <div class="d-flex justify-content-between
+                                    align-items-center mb-3">
+                                    <h4>Expert Level: {{hacker.expertLevel}}</h4>
+                                    <!-- <p class="price">{{hacker.expertLevel}}</p> -->
+                                </div>
+
+                                <!-- <h3><a href="course-details.html">Website Design</a></h3>
+                                <p>Et architecto provident deleniti facere
+                                    repellat nobis iste. Id facere quia quae
+                                    dolores dolorem tempore.</p> -->
+                                <div class="trainer d-flex
+                                    justify-content-between align-items-center">
+                                    <div class="trainer-profile d-flex
+                                        align-items-center">
+                                        <img
+                                            src="data:image/jpeg;base64,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"
+                                            class="img-fluid" alt="">
+                                        <span>{{hacker.name}}</span>
+                                    </div>
+                                    <div class="trainer-rank d-flex
+                                        align-items-center">
+                                        <!-- <i class="bx bx-user"></i>&nbsp;50 -->
+                                        &nbsp;&nbsp;
+                                        <i class="bx bx-heart"></i>&nbsp;{{hacker.votes}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Course Item-->
+
+                </div>
+
+            </div>
+        </section><!-- End Popular Courses Section -->
+
+        <!-- ======= Trainers Section ======= -->
+      
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+  
+    <a routerLink="/home" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <!-- <div id="preloader"></div> -->
+
+</body>

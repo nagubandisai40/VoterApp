@@ -1,0 +1,5 @@
+[Info  - 4:38:09 am] Angular language server process ID: 13969
+[Info  - 4:38:12 am] Using typescript/lib/tsserverlibrary v3.9.5 from /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 4:38:12 am] Using @angular/language-service v10.0.7 from /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js
+[Info  - 4:38:12 am] Log file: /home/sai/study/coda_hiring_challenge/voterapplication/~/.vscode-root/logs/20200804T024935/exthost3/Angular.ng-template/nglangsvc.log
+[Info  - 4:44:11 am] Enabling language service for /media/sai/New Volume/sai/projects/album/tsconfig.json.

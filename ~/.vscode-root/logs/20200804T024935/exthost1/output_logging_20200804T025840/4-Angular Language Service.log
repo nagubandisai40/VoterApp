@@ -1,0 +1,6 @@
+[Info  - 2:58:40 am] Angular language server process ID: 8209
+[Info  - 2:58:40 am] Using typescript/lib/tsserverlibrary v3.9.5 from /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 2:58:40 am] Using @angular/language-service v10.0.7 from /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js
+[Info  - 2:58:40 am] Log file: /home/sai/study/coda_hiring_challenge/voterapplication/~/.vscode-root/logs/20200804T024935/exthost1/Angular.ng-template/nglangsvc.log
+[Info  - 2:59:51 am] Enabling language service for /home/sai/study/coda_hiring_challenge/voterapplication/tsconfig.json.
+[Error - 2:59:51 am] No config file for /home/sai/study/coda_hiring_challenge/voterapplication/src/index.html
