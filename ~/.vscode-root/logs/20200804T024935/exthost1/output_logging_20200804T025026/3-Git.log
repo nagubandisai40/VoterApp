@@ -1,0 +1,1111 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/sai/study/coda_hiring_challenge/voterapplication
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/index.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/index.html
+> git cat-file -s c4121c379dc97bdf418563d4f77077588aca9eff
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.module.ts
+> git cat-file -s 2c3ba2995c8510c02ca812f90280146738f162cf
+> git show --textconv :src/app/app.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.module.ts
+> git cat-file -s 2c3ba2995c8510c02ca812f90280146738f162cf
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/main.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/main.ts
+> git cat-file -s c7b673cf44b388e9989fe908b78d7d73cd2e1409
+> git show --textconv :angular.json
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/angular.json
+> git cat-file -s 4a71093a07073ca6c74e51f89e7e4ac0dbfad8c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :angular.json
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/angular.json
+> git cat-file -s 4a71093a07073ca6c74e51f89e7e4ac0dbfad8c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :angular.json
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/angular.json
+> git cat-file -s 4a71093a07073ca6c74e51f89e7e4ac0dbfad8c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/home/home.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/home/home.component.html
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git show --textconv :src/app/app.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.module.ts
+> git cat-file -s 2c3ba2995c8510c02ca812f90280146738f162cf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git check-ignore -v -z --stdin
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/app.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.module.ts
+> git cat-file -s 2c3ba2995c8510c02ca812f90280146738f162cf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/interaction.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/interaction.service.ts
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/auth.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/auth.service.ts
+> git show --textconv :src/app/services/interaction.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/interaction.service.ts
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/interaction.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/interaction.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/auth.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/auth.service.ts
+> git show --textconv :src/app/services/interaction.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/interaction.service.ts
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git status -z -u
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git show --textconv :src/app/services/auth.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/auth.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/interaction.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/interaction.service.ts
+> git show --textconv :src/app/app-routing.module.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app-routing.module.ts
+> git cat-file -s 06c734263e1716e120bbb2771845eca1ae74c055
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/login/login.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.html
+> git show --textconv :src/app/services/auth.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/auth.service.ts
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.html
+> git cat-file -s 0c510c671fa8d74b832e3811296636fc019e5abb
+> git show --textconv :src/app/app.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/app.component.ts
+> git cat-file -s 042b981cfdf1088f0a65657a3242d715be312940
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/login/login.component.ts
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.ts
+> git status -z -u
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.html
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/components/hackers/hackers.component.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/components/hackers/hackers.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/services/backend-connect.service.ts
+> git ls-files --stage -- /home/sai/study/coda_hiring_challenge/voterapplication/src/app/services/backend-connect.service.ts

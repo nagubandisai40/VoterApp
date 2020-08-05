@@ -1,0 +1,3 @@
+[2020-08-04 02:49:43.424] [sharedprocess] [info] main {"machineId":"d97183f59a5265636d6faf88939eb1809fe2eba262fe651dbfcb3a348c0396da","windowId":2}
+[2020-08-04 02:49:43.517] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/sai/study/coda_hiring_challenge/voterapplication/~/.vscode-root/User/snippets'
+[2020-08-04 02:50:23.462] [sharedprocess] [info] Starting to clean up unused language packs.

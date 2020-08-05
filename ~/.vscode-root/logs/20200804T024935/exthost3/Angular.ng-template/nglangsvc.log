@@ -1,0 +1,117 @@
+Info 0    [4:38:9.749] Format host information updated
+Info 1    [4:38:9.750] reload projects.
+Info 2    [4:38:9.751] Before ensureProjectForOpenFiles:
+Info 3    [4:38:9.751] After ensureProjectForOpenFiles:
+Info 4    [4:38:9.751] Host file extension mappings updated
+Info 5    [4:38:12.885] Search path: /media/sai/New Volume/sai/projects/album/src/app/components/login
+Info 6    [4:38:12.892] For info: /media/sai/New Volume/sai/projects/album/src/app/components/login/login.component.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 7    [4:38:12.892] Opened configuration file /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 8    [4:38:17.980] Config: /media/sai/New Volume/sai/projects/album/tsconfig.json : {
+ "rootNames": [
+  "/media/sai/New Volume/sai/projects/album/e2e/src/app.e2e-spec.ts",
+  "/media/sai/New Volume/sai/projects/album/e2e/src/app.po.ts",
+  "/media/sai/New Volume/sai/projects/album/src/main.ts",
+  "/media/sai/New Volume/sai/projects/album/src/polyfills.ts",
+  "/media/sai/New Volume/sai/projects/album/src/test.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/app-routing.module.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/app.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/app.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/app.module.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/aboutus/aboutus.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/aboutus/aboutus.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/birthday/birthday.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/birthday/birthday.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/change-password/change-password.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/change-password/change-password.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/event/event.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/event/event.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/fun/fun.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/fun/fun.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/gallery/gallery.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/gallery/gallery.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/home/home.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/home/home.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/individualdun/individualdun.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/individualdun/individualdun.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/individualevent/individualevent.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/individualevent/individualevent.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/login/login.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/login/login.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/profile/profile.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/profile/profile.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/profiles/profiles.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/profiles/profiles.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/user-images/user-images.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/user-images/user-images.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/userbirthday/userbirthday.component.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/components/userbirthday/userbirthday.component.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/guards/afterlogin.guard.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/guards/afterlogin.guard.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/guards/beforelogin.guard.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/guards/beforelogin.guard.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/auth.service.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/firebase-operations.service.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/firebase-operations.service.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/imageretrive.service.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/imageretrive.service.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.spec.ts",
+  "/media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts",
+  "/media/sai/New Volume/sai/projects/album/src/environments/environment.prod.ts",
+  "/media/sai/New Volume/sai/projects/album/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/media/sai/New Volume/sai/projects/album",
+  "outDir": "/media/sai/New Volume/sai/projects/album/dist/out-tsc",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "typeRoots": [
+   "/media/sai/New Volume/sai/projects/album/node_modules/@types"
+  ],
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/media/sai/New Volume/sai/projects/album/tsconfig.json"
+ }
+}
+Info 9    [4:42:47.816] Loading global plugin @angular/language-service
+Info 10   [4:42:47.836] Enabling plugin @angular/language-service from candidate paths: /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js,/home/sai/.vscode/extensions/angular.ng-template-0.1000.7/node_modules/typescript/lib/tsserverlibrary.js/../../..
+Info 11   [4:42:47.837] Loading @angular/language-service from /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js (resolved to /home/sai/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js/node_modules)
+Info 12   [4:42:49.648] Plugin validation succeded
+Info 13   [4:42:51.400] Starting updateGraphWorker: Project: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 14   [4:44:9.372] Finishing updateGraphWorker: Project: /media/sai/New Volume/sai/projects/album/tsconfig.json Version: 1 structureChanged: true Elapsed: 77971ms
+Info 15   [4:44:9.416] Project '/media/sai/New Volume/sai/projects/album/tsconfig.json' (Configured)
+Info 16   [4:44:9.416] 	Files (586)
+
+Info 17   [4:44:9.417] -----------------------------------------------
+Info 18   [4:44:9.421] Starting updateGraphWorker: Project: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 19   [4:44:9.438] Finishing updateGraphWorker: Project: /media/sai/New Volume/sai/projects/album/tsconfig.json Version: 2 structureChanged: false Elapsed: 16ms
+Info 20   [4:44:9.845] Search path: /media/sai/New Volume/sai/projects/album/src/app/components/home
+Info 21   [4:44:9.847] For info: /media/sai/New Volume/sai/projects/album/src/app/components/home/home.component.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 22   [4:44:9.849] Search path: /media/sai/New Volume/sai/projects/album/src/app/components/header
+Info 23   [4:44:9.850] For info: /media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 24   [4:50:56.42] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 25   [4:50:56.84] For info: /media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 26   [4:51:1.405] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 27   [4:51:1.407] For info: /media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 28   [4:51:6.891] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 29   [4:51:6.893] For info: /media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 30   [4:51:7.387] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 31   [4:51:7.389] For info: /media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 32   [4:52:35.919] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 33   [4:52:35.919] For info: /media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 34   [4:52:38.765] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 35   [4:52:38.765] For info: /media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 36   [4:52:38.967] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 37   [4:52:38.967] For info: /media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json
+Info 38   [4:52:39.689] Search path: /media/sai/New Volume/sai/projects/album/src/app/services
+Info 39   [4:52:39.694] For info: /media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts :: Config file name: /media/sai/New Volume/sai/projects/album/tsconfig.json

@@ -1,0 +1,41 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /media/sai/New Volume/sai/projects/album
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/login/login.component.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/components/login/login.component.ts
+> git cat-file -s 19b1f5381d387874c381428176d44b3ef3cb704b
+> git show --textconv :src/app/components/home/home.component.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/components/home/home.component.ts
+> git check-ignore -v -z --stdin
+> git cat-file -s 067ab3101e3e7bdad06aa274bb10ea2a3b10b812
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/components/header/header.component.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.ts
+> git cat-file -s 16a69a6b78ac3dfbd6166de4091cab2eae0fac5a
+> git show --textconv :src/app/services/interaction-service.service.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/services/interaction-service.service.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git cat-file -s 6751f7e3565a9c6730f831498c75380a1ac4caa7
+> git show --textconv :src/app/components/header/header.component.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.ts
+> git cat-file -s 16a69a6b78ac3dfbd6166de4091cab2eae0fac5a
+> git show --textconv :src/app/services/auth.service.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/services/auth.service.ts
+> git cat-file -s c7b7f7678142d1ee0bfadf390606af117fab4283
+> git show --textconv :src/app/components/header/header.component.ts
+> git ls-files --stage -- /media/sai/New Volume/sai/projects/album/src/app/components/header/header.component.ts
+> git cat-file -s 16a69a6b78ac3dfbd6166de4091cab2eae0fac5a
